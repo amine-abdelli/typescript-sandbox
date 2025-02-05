@@ -5,10 +5,7 @@
   "type": "module",
   "scripts": {
     "sandbox": "vite-node --loader ts-node/esm src/main.ts",
-    "sandbox:watch": "vite-node --loader ts-node/esm --watch src/main.ts",
-    "sandbox:backo-gaps": "vite-node --loader ts-node/esm src/archives/adeo/sie-backo-gaps-calculations.ts",
-    "sandbox:gaps-retrieval": "vite-node --loader ts-node/esm src/archives/adeo/sie-backo-gaps-retrieval.ts",
-    "sandbox:bq-mongo-discrepancies": "vite-node --loader ts-node/esm src/archives/adeo/bq-mongo.ts"
+    "sandbox:watch": "vite-node --loader ts-node/esm --watch src/main.ts"
   },
   "dependencies": {
     "axios": "^1.7.2",
